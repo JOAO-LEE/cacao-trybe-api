@@ -1,9 +1,9 @@
 # API Cacao Trybe  
 
-Essa é uma atividade guiada de uma construção de API utilizando o método de Desenvolvimento Orientado a Testes.
+Essa é uma atividade guiada de uma construção de API utilizando o método de Desenvolvimento Orientado a Testes (***TDD - Test Driven Development*** ).
 
 ### A API **Cacao Trybe** será composta por três endpoints, representados pelos seguintes contratos:  
-👉 **GET /chocolates**  
+👉 **GET** ***/chocolates***  
 
 **Objetivo**:  
 
@@ -18,7 +18,7 @@ Body (exemplo):
     { "id": 4, "name": "Mounds", "brandId": 3 }
   ]
 ```  
-👉 **GET /chocolates/:id**
+👉 **GET** ***/chocolates/:id***
 
 **Objetivo**:  
 
@@ -36,9 +36,10 @@ Body (exemplo):
   ]
 ```  
   
-👉 **GET /chocolates/brand/:brandId**
+👉 **GET** ***/chocolates/brand/:brandId***
 
-**Objetivo**:  
+**Objetivo**:
+
 Buscar uma lista de chocolates pelo ID (brandId) da marca.  
 Código HTTP: 200 - OK;  
 Body (exemplo):
