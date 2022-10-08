@@ -1,6 +1,6 @@
 # API Cacao Trybe  
 
-## Essa é uma atividade guiada de uma construção de API utilizando o método de Desenvolvimento Orientado a Testes (***TDD - Test Driven Development***).
+## Esta é uma atividade guiada de uma construção de API utilizando o método de Desenvolvimento Orientado a Testes (***TDD - Test Driven Development***).
 
 ### A API **Cacao Trybe** será composta por três endpoints, representados pelos seguintes contratos:  
 👉 **GET** ***/chocolates***  
@@ -58,4 +58,7 @@ Body (exemplo):
   }
 ]
 ```
+**Atenção**:
+A maior parte do desenvolvimento dessa aplicação não foi realizada por mim, e sim pela [Trybe](https://github.com/betrybe).  
+Este repositório serve como registro da minha pratica e aprendizado durante o [curso da Trybe](https://betrybe.com/).
 
