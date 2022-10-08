@@ -4,7 +4,8 @@ const { join } = require('path');
 const readCacaoTrybeFile = async () => {
   const path = 'data/cacaoTrybefile.json';
   try {
-    const contentFile = await fs.readFile(join(__dirname, path), 'utf-8');
+    const contentFile = await fs
+    .readFile(join(__dirname, path), 'utf-8');
     return JSON.parse(contentFile);
   } catch (error) {
     return null;
