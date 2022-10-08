@@ -15,7 +15,8 @@
     "chai": "4.3",
     "chai-http": "4.3",
     "mocha": "10.0",
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.20",
+    "sinon": "14.0"
   },
   "dependencies": {
     "express": "4.17"
