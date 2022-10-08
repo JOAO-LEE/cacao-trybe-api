@@ -58,7 +58,8 @@ Body (exemplo):
   }
 ]
 ```
-**Atenção**:
+**Atenção**:  
+
 A maior parte do desenvolvimento dessa aplicação não foi realizada por mim, e sim pela [Trybe](https://github.com/betrybe).  
 Este repositório serve como registro da minha pratica e aprendizado durante o [curso da Trybe](https://betrybe.com/).
 
