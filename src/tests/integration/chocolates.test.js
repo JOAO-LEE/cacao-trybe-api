@@ -29,3 +29,10 @@ describe('Usando o método GET em /chocolates/:id', function () {
     expect(response.body.chocolates).to.deep.equal(output[0]);
   });
 });
+describe('Usando o método GET em /chocolates/brands/1', function () {
+  it('Retorna chocolates pelo id da marca', async function () {
+    const response = await chai.request(app).get('/chocolates/brands/1')
+    expect(response.status).to.be.equals(200);
+    expect(response.body.chocolates).to.deep.equal(output[0], output[1]);
+  });
+});
