@@ -15,6 +15,13 @@ app.get('/chocolates/:id', async (req, resp) => {
   resp.status(200).json({ chocolates });
 });
 
+app.get('/chocolates/brand/:brandId', async (req, resp) => {
+  const { brandId } = req.params;
+  const chocolateById = await getAllChocolates();
+  const chocolates = chocolateById.filter((chocolate) => chocolate.brandId === Number(brandId));
+  resp.status(200).json({ chocolates });
+});
+
 module.exports = {
   app
 };
